@@ -1,0 +1,38 @@
+body{
+    font-family: 'Open sans';
+}
+
+nav{
+    padding-bottom: 20px;
+    font-size: 12px;
+
+}
+
+footer{
+    font-size: 14px;
+    border-top-style: solid;
+    border-top-color: black;
+    background-color: green;
+}
+
+li {
+    display: inline;
+    margin: 15px 25px 0px -10px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+   float: right;
+}
+
+.signin {
+    background-color: #4777fa;
+    color: #ffffff;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    border-radius: 2px;
+    font-weight: bold;
+}
