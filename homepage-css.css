@@ -11,13 +11,15 @@ nav{
 footer{
     font-size: 14px;
     border-top-style: solid;
-    border-top-color: black;
-    background-color: green;
-}
-
-li {
-    display: inline;
-    margin: 15px 25px 0px -10px;
+    border-top-width: 1px;
+    border-top-color: rgb(218, 218, 218);
+    background-color: #ebebeb;
+    bottom: 0;
+    position: absolute;
+    height: 35px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-left: -10px;
 }
 
 .left {
@@ -28,6 +30,17 @@ li {
    float: right;
 }
 
+.footerlist{
+    font-size: 14px;
+    margin: 0px 0px 0px 0px;
+    color: #505050
+}
+
+li {
+    display: inline;
+    margin: 15px 25px 0px -10px;
+}
+
 .signin {
     background-color: #4777fa;
     color: #ffffff;
@@ -35,4 +48,8 @@ li {
     margin-top: 10px;
     border-radius: 2px;
     font-weight: bold;
+}
+
+.logo{
+    float: middle;
 }
